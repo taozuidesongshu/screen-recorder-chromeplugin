@@ -691,19 +691,22 @@ function pageUpdated(sender) {
 // Changed tab selection
 // 改变选项卡选择
 chrome.tabs.onActivated.addListener(function (tabId, changeInfo, tab) {
-    if (!recording) {
-        // Hide injected content if the recording is already over
-        // 如果录音已经结束，则隐藏注入的内容
-        chrome.tabs.getSelected(null, function (tab) {
-            chrome.tabs.sendMessage(tab.id, {
-                type: "end"
+    setTimeout(() => {
+        // console.log(tabId)
+        if (!recording) {
+            // Hide injected content if the recording is already over
+            // 如果录音已经结束，则隐藏注入的内容
+            chrome.tabs.getSelected(null, function (tab) {
+                chrome.tabs.sendMessage(tabId.tabId, {
+                    type: "end"
+                });
             });
-        });
-    } else if (recording && recording_type == "desktop" && maintabs.indexOf(tabId) == -1) {
-        // Inject content for entire desktop recordings (content should be on any tab)
-        // 为整个桌面录音注入内容(内容应该在任何选项卡上)
-        injectContent(false);
-    }
+        } else if (recording && recording_type == "desktop" && maintabs.indexOf(tabId) == -1) {
+            // Inject content for entire desktop recordings (content should be on any tab)
+            // 为整个桌面录音注入内容(内容应该在任何选项卡上)
+            injectContent(false);
+        }
+    }, 100);
 });
 
 chrome.tabs.onRemoved.addListener(function (tabid, removed) {
