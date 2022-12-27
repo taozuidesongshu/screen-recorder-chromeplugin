@@ -1,126 +1,126 @@
 {
     "extName": {
-      "message": "Screenity - Rejestrator ekranu & Narzędzie do adnotacji",
+      "message": "Screen Recorder & Annotation Tool",
       "description": "Extension name"
     },
     "extDesc": {
-      "message": "Najpotężniejszy rejestrator ekranu dla Chrome. Przechwytuj, opisuj, edytuj i nie tylko.",
+      "message": "The most powerful screen recorder for Chrome. Capture, annotate, edit, and more.",
       "description": "Extension description"
     },
     "extCancel": {
-      "message": "Anuluj nagrywanie",
+      "message": "Cancel recording",
       "description": "Cancel recording keyboard shortcut name"
     },
     "extMute": {
-      "message": "Wyłącz/Włącz mikrofon",
+      "message": "Mute/Unmute microphone",
       "description": "Mute/Unmute microphone keyboard shortcut name"
     },
     "extStop": {
-      "message": "Zatrzymaj nagrywanie",
+      "message": "Stop recording",
       "description": "Stop recording keyboard shortcut name"
     },
     "extPause": {
-      "message": "Spauzuj/Wznów nagrywanie",
+      "message": "Pause/Resume recording",
       "description": "Pause/Resume keyboard shortcut name"
     },
     "tab_only": {
-      "message": "Tylko kartę",
+      "message": "Tab only",
       "description": "Tab only label in popup"
     },
     "desktop": {
-      "message": "Pulpit",
+      "message": "Desktop",
       "description": "Desktop label in popup"
     },
     "camera_only": {
-      "message": "Tylko kamera",
+      "message": "Camera only",
       "description": "Camera only label in popup"
     },
     "camera": {
-      "message": "Kamera",
+      "message": "Camera",
       "description": "Camera dropdown label in popup"
     },
     "microphone": {
-      "message": "Mikrofon",
+      "message": "Microphone",
       "description": "Microphone dropdown label in popup"
     },
     "flip_camera": {
-      "message": "Odwróc kamerę",
+      "message": "Flip camera",
       "description": "Flip camera label in popup"
     },
     "push_to_talk": {
-      "message": "Naciśnij by mówić",
+      "message": "Push to talk",
       "description": "Push to talk label in popup"
     },
     "only_on_hover": {
-      "message": "Pokaż pasek narzędzi po najechaniu",
+      "message": "Only show toolbar on hover",
       "description": "Only show toolbar on hover label in popup"
     },
     "disabled": {
-      "message": "Wyłączony",
+      "message": "Disabled",
       "description": "Disabled dropdown state in popup"
     },
     "loading": {
-      "message": "Ładowanie...",
+      "message": "Loading...",
       "description": "Loading state in popup"
     },
     "start_recording": {
-      "message": "Zacznij nagrywanie",
+      "message": "Start recording",
       "description": "Start recording state in popup"
     },
     "starting_recording": {
-      "message": "Zaczynanie nagrywania...",
+      "message": "Starting recording...",
       "description": "Starting recording state in popup"
     },
     "cannot_record": {
-      "message": "Nie mogę nagrywać na tej stronie internetowej",
+      "message": "Can't record in this page",
       "description": "Can't record in this page state in popup"
     },
     "stop_recording": {
-      "message": "Zatrzymaj nagrywanie",
+      "message": "Stop recording",
       "description": "Stop recording state in popup"
     },
     "second": {
-      "message": "sekunda",
+      "message": "second",
       "description": "Seconds label for countdown"
     },
     "seconds": {
-      "message": "sekundy",
+      "message": "seconds",
       "description": "Seconds label for countdown (plural)"
     },
     "countdown": {
-      "message": "odliczanie",
+      "message": "countdown",
       "description": "Countdown label in popup"
     },
     "keyboard_shortcuts": {
-      "message": "Skróty klawiszowe",
+      "message": "Keyboard shortcuts",
       "description": "Keyboard shortcuts label in popup"
     },
     "smaller_file_size": {
-      "message": "Mniejszy rozmiar pliku",
+      "message": "Smaller file size",
       "description": "Smaller file size label in popup"
     },
     "highest_quality": {
-      "message": "Najwyższa jakość",
+      "message": "Highest quality",
       "description": "Highest quality label in popup"
     },
     "rate_extension": {
-      "message": "Oceń rozszerzenie",
+      "message": "Rate extension",
       "description": "Rate extension label in popup"
     },
     "made_by_alyssa": {
-      "message": "Stworzone przez Alyssa X",
+      "message": "Made by Alyssa X",
       "description": "Made by Alyssa X label in popup"
     },
     "disabled_allow_access": {
-      "message": "Wyłączony (daj dostęp w pasku URL)",
+      "message": "Disabled (allow access in URL bar)",
       "description": "Disabled requiring permission for camera/mic in popup"
     },
     "made_with": {
-      "message": "Stworzone z",
+      "message": "Made with",
       "description": "Made with label in video editor"
     },
     "by_alyssa": {
-      "message": "Alyssa X",
+      "message": "by Alyssa X",
       "description": "By Alyssa X label in video editor"
     },
     "edit_recording": {
@@ -132,15 +132,15 @@
       "description": "Edit recording description in video editor"
     },
     "format": {
-      "message": "Format pliku",
+      "message": "Export format",
       "description": "Export format label in video editor"
     },
     "webm": {
-      "message": "WEBM (domyślny)",
+      "message": "WEBM (default)",
       "description": "Webm dropdown label in video editor"
     },
     "trim_video": {
-      "message": "Przytnij wideo",
+      "message": "Trim video",
       "description": "Trim video label in video editor"
     },
     "start": {
@@ -148,39 +148,39 @@
       "description": "Start label in video editor"
     },
     "end": {
-      "message": "Koniec",
+      "message": "End",
       "description": "End label in video editor"
     },
     "remove_part": {
-      "message": "Usuń część wideo",
+      "message": "Remove part of the video",
       "description": "Remove part of the video label in video editor"
     },
     "apply": {
-      "message": "Zaaplikuj",
+      "message": "Apply",
       "description": "Apply button in video editor"
     },
     "reset": {
-      "message": "Zresetuj zmiany (cofnij do początkowego nagrania)",
+      "message": "Reset changes (revert to initial recording)",
       "description": "Reset label in video editor"
     },
     "download": {
-      "message": "Pobierz",
+      "message": "Download",
       "description": "Download button in video editor"
     },
     "save_drive": {
-      "message": "Zapisz na Dysk Google",
+      "message": "Save to Drive",
       "description": "Save to Drive button in video editor"
     },
     "saving": {
-      "message": "Zapisywanie...",
+      "message": "Saving...",
       "description": "Saving to Drive button in video editor"
     },
     "show_hide": {
-      "message": "Pokaż/ukryj opcje",
+      "message": "Show/hide options",
       "description": "Show/hide options panel in video editor (small screen)"
     },
     "downloading": {
-      "message": "Pobieranie...",
+      "message": "Downloading...",
       "description": "Downloading button in video editor"
     }
 }
