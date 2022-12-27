@@ -521,7 +521,7 @@ $(document).ready(function(){
     // Stop and save the recording
     function saveRecording(){
         chrome.runtime.sendMessage({type: "stop-save"}); 
-				alert("Saving...")
+        alert("视频合成中...")
     }
     
     // Stop and discard the recording

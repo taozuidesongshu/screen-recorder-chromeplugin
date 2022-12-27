@@ -92,7 +92,6 @@ function saveRecording(url, blobs) {
 // Stop recording
 // 停止记录
 function endRecording(stream, writer, recordedBlobs) {
-
     // Get video duration
     chrome.storage.sync.get(['start', 'total'], function (result) {
         chrome.storage.sync.set({
@@ -223,6 +222,7 @@ function getTab() {
                 },
             },
         }, function (stream) {
+            console.log(tab)
             // Combine tab and microphone audio
             // 组合标签和麦克风音频
             output = new MediaStream();
@@ -695,7 +695,7 @@ chrome.tabs.onActivated.addListener(function (tabId, changeInfo, tab) {
         // Hide injected content if the recording is already over
         // 如果录音已经结束，则隐藏注入的内容
         chrome.tabs.getSelected(null, function (tab) {
-            chrome.tabs.sendMessage(tab.id, {
+            chrome.tabs.sendMessage(tab?.id, {
                 type: "end"
             });
         });
