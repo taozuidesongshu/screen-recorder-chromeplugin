@@ -177,7 +177,7 @@ function getDesktop() {
             transform: (chunk, ctrl) => chunk.arrayBuffer().then(b => ctrl.enqueue(new Uint8Array(b)))
         })
         const writer = writable.getWriter()
-        readable.pipeTo(streamSaver.createWriteStream('Screen Recorder.webm'));
+        // readable.pipeTo(streamSaver.createWriteStream('Screen Recorder.webm'));
 
         // Record tab stream
         // 记录选项卡流
@@ -254,7 +254,7 @@ function getTab() {
                 transform: (chunk, ctrl) => chunk.arrayBuffer().then(b => ctrl.enqueue(new Uint8Array(b)))
             })
             const writer = writable.getWriter()
-            readable.pipeTo(streamSaver.createWriteStream('Screen Recorder.webm'));
+            // readable.pipeTo(streamSaver.createWriteStream('Screen Recorder.webm'));
 
             // Record tab stream
             // 记录选项卡流
